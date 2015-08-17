@@ -1,0 +1,16 @@
+pkgbase = spigot-patcher
+	pkgdesc = Binary patcher for distribution of Spigot and related updates.
+	pkgver = 1.0
+	pkgrel = 2
+	url = http://www.spigotmc.org
+	install = spigot-patcher.install
+	arch = any
+	license = unknown
+	depends = java-runtime-headless
+	depends = spigot
+	source = http://www.spigotmc.org/spigot-updates/SpigotPatcher-1.0.jar
+	source = spigot-patcher.sh
+	noextract = SpigotPatcher-1.0.jar
+
+pkgname = spigot-patcher
+
